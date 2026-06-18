@@ -21,7 +21,7 @@ pipeline
    {
     steps
     {
-      bat 'java -jar mymaven-1.0-SNAPSHOT.jar'
+      bat 'java -jar target\\mymaven-1.0-SNAPSHOT.jar'
     }
    }
  }
